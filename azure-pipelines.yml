@@ -15,7 +15,7 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-    echo '$(build.ArtifactStagingDirectory)''
+    echo "$(build.ArtifactStagingDirectory)"
   displayName: 'Run a multi-line script'
 
 
